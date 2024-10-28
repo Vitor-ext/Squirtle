@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(#A3C1DA, #A3E1E6);
+    font-family: 'Righteous', cursive;
+}
+
+header{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+header h2{
+    font-size: 2.5rem;
+    color: black;
+}
+
+.pokebola{
+    width: 2.5rem;
+    margin: 10px;
+}
+
+main{
+    flex: 1;
+}
+
+.container--title{
+    text-align: center;
+}
+
+.title--text{
+    position: absolute;
+    font-size: 20vw;
+    color: black;
+    top: 20%;
+    left: 15%
+}
+
+.title--transparent{
+    position: absolute;
+    font-size: 27rem;
+    color: #fff5;
+    z-index: -1;
+    left: 0%;
+    top: 0%;
+    letter-spacing: 2rem;
+}
+
+.squirtle--image{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+h2{
+    font-size: 2rem;
+    color: black;
+}
+
+.description{
+    width: 50rem;
+    margin: 2%;
+    position: absolute;
+    left: 0;
+    bottom: 0%;
+}
+
+a{
+    position: absolute;
+    right: 4.5rem;
+    bottom: 2.5rem;
+    background-color: #1882d8;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+    width: 8%;
+    height: 2.5rem;
+    text-align: center;
+    padding: 5px;
+}
+
+p{
+    font-size: 1.2rem;
+    color: white;
+}
+
+
+footer{
+    height: 50px;
+    text-align: center;
+}
+
+footer p{
+    color: white;
+    font-size: 20px;
+}
